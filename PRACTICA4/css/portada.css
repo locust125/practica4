@@ -1,0 +1,46 @@
+body
+{
+    background-image: url(/css/imagen/1161731.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 20px;
+    padding: 10px;
+}
+
+b
+{
+    margin: auto;
+    color: #0E3EDA;
+    margin: 5px;
+    padding: 5px;
+    font-size: 40px;
+}
+
+P
+{
+    margin: auto;
+    color: #2FA4FF;
+    margin: 5px;
+    padding: 5px;
+    font-size: 35px;
+}
+
+h
+{
+    margin: auto;
+    color: #D82148;
+    margin: 5px;
+    padding: 500px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a
+{
+    margin: auto;
+    color: #2FA4FF;
+    margin: 5px;
+    padding: 5px;
+    font-size: 35px;
+}

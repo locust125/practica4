@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/formulario.css">
+    <title>formulario</title>
+</head>
+<body>
+
+    <h1>Formulario de ingreso al vuelo 209</h1>
+    <main>
+        <form>
+
+            <section>
+                <label for="texto" id="apellido" name="apellido"> Apellido: </label>
+                <input type="text" name="" id="apellid"
+                placeholder="Apellido(Como se muestra en el pasaporte)">
+            </section>
+
+            <section>
+                <label for="Nombre" id="nombre" name="nombre"> Nombre: </label>
+                <input type="text" name="" id="name"
+                placeholder="Solo nombre">
+            </section>
+
+            <section>
+                <label for="fec">Fecha de nacimiento: </label>
+                <input type="date" id="start" name="trip-start"
+                 value="2000-01-01"
+                min="1900-12-31" max="2022-01-01">
+            </section>
+
+            <section>
+                <label for="nacimiento" id="nad" name="nombre"> Ciudad de natal: </label>
+                <input type="text" name="" id="ciu"
+                placeholder="Ciudad de nacimiento">
+            </section>
+
+            <section>
+                <label for="pnacimiento" id="pais" name="nombre"> Pais de nacimiento: </label>
+                <select name="pas" id="paiss">
+                    <option value="null">Elegir...</option>
+                    <option value="Mx">Mexico</option>
+                    <option value="EU">Estados Unidos</option>
+                    <option value="Canada">Canada</option>
+                </select>
+            </section>
+                <section>
+                    <label for="pnacimiento" id="nac" name="Nacionalidad"> Nacionalidad: </label>
+                    <select name="nac" id="naci">
+                        <option value="null">Elegir...</option>
+                        <option value="Mx">Mexico</option>
+                        <option value="EU">Estados Unidos</option>
+                        <option value="Canada">Canada</option>
+                    </select>
+                </section>
+
+            <section>
+                <label for="number" id="num" name="Pasaporte">Numero de pasaporte</label>
+                <input type="number" placeholder="Maximo 10 numeros" maxlength="10">
+            </section>
+
+            <section>
+                <label for="pnacimiento" id="tra" name="nombre"> Pais donde fue tramitado su pasaporte: </label>
+                <select name="pas" id="tramite">
+                    <option value="null">Elegir...</option>
+                    <option value="Mx">Mexico</option>
+                    <option value="EU">Estados Unidos</option>
+                    <option value="Canada">Canada</option>
+                </select>
+            </section>
+
+            <section>
+                <label for="number" id="fnum" name="fPasaporte">Fecha de emicion del pasaporte:</label>
+                <input type="number" placeholder="dia" max="32">
+                <input type="number"placeholder="mes" max="12"> 
+                <input type="number"placeholder="año"min="1900" max="2022">
+            </section>
+            
+            </section>
+
+            <section>
+                <label for="number" id="ven" name="vPasaporte">Fecha de vencimiento del pasaporte:</label>
+                <input type="number" placeholder="dia" max="32">
+                <input type="number"placeholder="mes" max="12">
+                <input type="number"placeholder="año" min="1900" max="2022">
+            </section>
+
+        </form>
+
+
+    </main>
+</body>
+</html>

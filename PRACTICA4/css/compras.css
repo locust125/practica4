@@ -1,0 +1,44 @@
+body
+{
+    background-color: #00FFDD;
+}
+header
+{
+    color: #041562;
+    background-color: #2FA4FF;
+    height: 100px;
+    
+}
+
+h1
+{
+    text-align: center;
+    color: ;
+}
+
+section
+{
+    background-color: #B8FFF9;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+
+img
+{
+    width: 300px;
+    height: 200px;
+    margin: 50px;
+}
+
+b
+{
+    margin: 100px;
+    text-align: center;
+    font-size: 25px; 
+    color: #42C2FF; 
+}
+article
+{
+    display: flex;
+}

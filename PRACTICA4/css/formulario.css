@@ -1,0 +1,45 @@
+body
+{
+    background-color: #EEEDDE;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 90px;
+}
+
+form
+{
+    background-color: #E0DDAA;
+    width: 1550px;
+    height: 700px;
+    margin: 100px;
+    padding: 50px;
+    font-size: 50px;
+}
+
+input
+{
+    padding: 20px;
+    background-color: #EEEDDE;
+}
+
+select
+{
+    padding: 20px;
+    background-color: #EEEDDE;
+}
+
+option
+{
+
+    font-size: 25px;  
+}
+
+#placeholder
+{
+    font-size: 50px;
+    left: 200px;
+}
+

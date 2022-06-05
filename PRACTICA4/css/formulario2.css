@@ -1,0 +1,36 @@
+body
+{
+    background-color: #6EBF8B;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 70px;
+    color: #151D3B;
+}
+
+section
+{
+    padding: 20px;
+    background-color: #D82148;
+    font-size: 50px;
+    color: #151D3B;
+}
+select
+{
+    padding: 10px;
+    background-color: #DADBBD;
+}
+
+input
+{
+    padding: 10px;
+    background-color: #DADBBD; 
+}
+
+button
+{
+    padding: 10px;
+    background-color: #DADBBD; 
+}
